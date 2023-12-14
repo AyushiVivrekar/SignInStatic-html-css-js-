@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="signupCard">
+
+            <button class="btnsignIn" onclick="openSignIn()">Sign In</button>
+        </div>
+        <!-- ------------------------------------------------------------------- -->
+        <div class="slideDiv" id="slideShow">
+            <div class="submitCard">
+                <h5 class="card_h5"><strong>Hello, Friends!</strong></h5>
+                <br />
+                <div>
+                    <p class="card_p">Enter Your Personal details and start journey with us.</p>
+                </div>
+                <button class="submitBtn" onclick="closeSignIn()">Submit</button>
+            </div>
+
+            <div style="margin-left:25%">
+                <div class="creAccCard">
+                    <form action="#">
+                        <div class="formContainer">
+                            <h4><b>Create Account</b></h4>
+                            <div class="iconsDiv">
+                                <i class="fa fa-brands fa-facebook fa-2xs" style="color: #171616;"></i>
+                                <i class="fa fa-brands fa-instagram"></i>
+                                <i class="fa fa-brands fa-linkedin"></i>
+                            </div>
+                            <p><b>Lorem Ipsum is simply.</b></p>
+                            <div>
+                                <input placeholder="Enter YourName" id="name" />
+                            </div>
+
+                            <div>
+                                <input placeholder="Password" id="pwd" />
+                            </div>
+
+                            <div>
+                                <input placeholder="Confirm Your Password" id="confirmPwd" />
+                            </div>
+
+                            <button class="signInBtn2">Sign-In</button>
+                        </div>
+
+                    </form>
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- -----------------------------------------------------          -->
+    </div>
+    <script>
+        function openSignIn() {
+            document.getElementById('slideShow').style.width = '688px'
+        }
+        function closeSignIn() {
+            document.getElementById('slideShow').style.width = '0'
+        }
+
+    </script>
+</body>
+
+</html>

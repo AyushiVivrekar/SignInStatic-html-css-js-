@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    position: relative;
+    min-width: 270px;
+    height: 20vh;
+    padding: 10px;
+    margin: 0 15px;
+    top: 2rem;
+    /* position: relative; */
+  }
+.signupCard{
+    border: 1px solid rgb(223, 220, 220);
+    padding: 5% 5% 20% 5%;
+    margin:5% 20% 5% 18%;
+    background: linear-gradient(#ed45ce, #5e0357f7);
+    /* width: 100% !important; */
+ }
+ .btnsignIn{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background: transparent;
+    color: #fff;
+    padding: 8px 26px 7px 26px;
+    justify-content: center !important;
+    margin:10% 0 10% 40%;
+
+ }
+ /* ---------------------------------------------------------------------------- */
+ .slideDiv {
+    
+        height: 73%;
+        width: 0;
+        position: fixed;
+        z-index: 0;
+        top: 99px;
+        right: 306px;
+        background-color: #ffffff1a;
+        overflow-x: hidden;
+        transition: 0.5s;
+        overflow-y: hidden;
+   
+}
+  
+  
+  .slideDiv .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+ /* ----------------------------------------------------------------------------- */
+
+ .slideDiv .submitCard{
+    display: block;
+    transition: 0.1s;
+    position: absolute;
+    top: 0;
+    margin:0% 60% 0% 0%;
+    border: none;
+    padding: 20% 2% 3% 5%;
+    height: 73vh;
+    background: linear-gradient(#ed45ce, #5e0357f7);
+
+}
+.card_h5{
+    font-size: 24px;
+    text-align: center !important;
+}
+.card_p{
+    font-size: 16px;
+    font-weight: 700;
+     text-align: center;
+}
+
+.submitBtn{
+    border: 1px solid #fff;
+   border-radius: 20px;
+   background: transparent;
+   color: #fff;
+   padding: 6px 26px 7px 26px;
+   justify-content: center !important;
+   margin: 50px 10px 0px 50px ;
+   
+   
+}
+.creAccCard{
+    
+        border: none;
+        padding: 2% 7% 3% 7%;
+        background: linear-gradient(#b816dd, #4A148C);
+        position: absolute;
+        width: 60%;
+        top: 0;
+        margin-left: 15%;
+        height: 73vh;
+}
+.formContainer {
+    position: relative;
+    padding: 10px 20px 10px 50px ;
+  }
+  #name{
+    border: none;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 5px 0px 5px 5px;
+    font-size: 14px;
+    color: gray;
+  }
+
+  #pwd{
+    border: none;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 5px 0px 5px 5px;
+    font-size: 14px;
+    color: gray;
+  }
+  #confirmPwd{
+    border: none;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 5px 0px 5px 5px;
+    font-size: 14px;
+    color: gray;
+  }
+.signInBtn2{
+    border: none;
+    border-radius: 20px;
+    background: rgb(155, 10, 199);
+    color: #fff;
+    padding: 6px 27px 7px 27px;
+    justify-content: center !important;
+    margin: 30px 10px 2px 30px ;
+
+}
+.iconsDiv{
+   margin: 10px 0px 10px 20px;
+}
+i {
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid rgb(8, 7, 7);
+    padding: 10px;
+  }
